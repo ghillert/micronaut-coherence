@@ -4,8 +4,6 @@ dependencies {
     api "io.micronaut:micronaut-runtime"
     api "com.oracle.coherence.ce:coherence-java-client"
 
-    implementation(platform("com.oracle.coherence.ce:coherence-bom:${coherenceVersion}"))
-
     testImplementation "org.mockito:mockito-core:${mockitoVersion}"
     testImplementation "org.hamcrest:hamcrest:${hamcrestVersion}"
     testImplementation "io.micronaut.test:micronaut-test-junit5:${micronautTestVersion}"
